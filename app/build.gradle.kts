@@ -40,6 +40,8 @@ android {
 }
 
 dependencies {
+
+    implementation("br.com.devsrsouza.compose.icons:font-awesome:1.1.0")
     implementation("androidx.navigation:navigation-compose:2.8.0")
     implementation("androidx.compose.foundation:foundation:1.6.0")
     implementation(libs.androidx.core.ktx)

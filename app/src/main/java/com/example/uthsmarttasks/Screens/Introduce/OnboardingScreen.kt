@@ -19,7 +19,8 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
-import com.example.uthsmarttasks.Module.Introduce
+import com.example.uthsmarttasks.Data.Module.Introduce
+import com.example.uthsmarttasks.Navigation.Screen
 import com.example.uthsmarttasks.R
 import com.example.uthsmarttasks.ui.theme.colorCustom
 import kotlinx.coroutines.launch
@@ -50,8 +51,7 @@ fun OnboardingScreen(navController: NavController) {
             verticalAlignment = Alignment.CenterVertically) {
             PageIndicator(currentPage = pagerState.currentPage, pageCount = pages.size)
             TextButton(onClick = {
-                // Ví dụ: chuyển sang màn hình chính
-                // navController.navigate("home")
+                navController.navigate(Screen.ForgotPasswordEmailScreen)
             }) {
                 Text("Skip", color = colorCustom.primary, fontWeight = FontWeight.Bold, fontSize = 20.sp)
             }

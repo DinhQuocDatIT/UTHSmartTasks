@@ -15,7 +15,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.example.uthsmarttasks.Module.Introduce
+import com.example.uthsmarttasks.Data.Module.Introduce
 
 @Composable
 fun OnboardingPageItem(page : Introduce){
