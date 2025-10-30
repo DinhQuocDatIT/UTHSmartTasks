@@ -8,4 +8,6 @@ object Screen{
     const val VerifyCode ="verifyCode"
     const val CreateNewPassword ="createNewPassword"
     const val Confirm ="confirm"
+    const val Login = "login"
+    const val Profile = "profile"
 }

@@ -137,7 +137,7 @@ fun Confirm(viewModel: ForgotPasswordViewModel ,navController: NavController){
         )
 
         Button(onClick = {
-            navController.navigate(Screen.Home)
+            navController.navigate(Screen.ForgotPasswordEmailScreen)
         },
             modifier = Modifier.fillMaxWidth(),
             colors = ButtonDefaults.buttonColors(
