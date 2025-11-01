@@ -19,7 +19,7 @@ class GoogleSignInManager(private val activity: Activity) {
             .setGoogleIdTokenRequestOptions(
                 BeginSignInRequest.GoogleIdTokenRequestOptions.builder()
                     .setSupported(true)
-                    .setServerClientId("497554399729-ipgvqc7sdmmdth7e4bsidtoe59ga3n6n.apps.googleusercontent.com") // 🔥 Thay bằng Web client ID từ Firebase
+                    .setServerClientId("497554399729-4u3v1ggmjier731jf0iqjcamfeuiuebp.apps.googleusercontent.com") // 🔥 Thay bằng Web client ID từ Firebase
                     .setFilterByAuthorizedAccounts(false)
                     .build()
             ).build()

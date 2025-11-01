@@ -20,7 +20,7 @@ import com.example.uthsmarttasks.ui.theme.colorCustom
 fun ButtonReturn (
     onClick:()->Unit
 ){
-    Row (modifier = Modifier.fillMaxWidth()){
+    Row (){
         IconButton(onClick = onClick,modifier = Modifier.clip(shape = RoundedCornerShape(15.dp)).clip(shape = RoundedCornerShape(10.dp)).background(colorCustom.primary)) {
             Icon(
                 imageVector = Icons.Filled.KeyboardArrowLeft,

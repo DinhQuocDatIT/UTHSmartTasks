@@ -43,7 +43,7 @@ android {
 dependencies {
 
     implementation("com.google.firebase:firebase-auth")
-
+    implementation("io.coil-kt:coil-compose:2.7.0")
     implementation("com.google.android.gms:play-services-auth:21.1.1")
     implementation(platform("com.google.firebase:firebase-bom:34.4.0"))
     implementation("com.google.firebase:firebase-analytics")

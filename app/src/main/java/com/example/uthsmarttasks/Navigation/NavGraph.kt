@@ -56,7 +56,7 @@ fun NavGraph(modifier: Modifier = Modifier){
         composable(Screen.Login) {
             Login(
                 onLoginSuccess = {
-                    navController.navigate("profile") {
+                    navController.navigate(Screen.ProfileScreen) {
                         popUpTo(Screen.Login) { inclusive = true }
                     }
                 },
@@ -64,8 +64,8 @@ fun NavGraph(modifier: Modifier = Modifier){
                 navController = navController
             )
         }
-        composable(Screen.Profile) {
-            ProfileScreen()
+        composable(Screen.ProfileScreen) {
+            ProfileScreen(navController = navController)
         }
     }
 

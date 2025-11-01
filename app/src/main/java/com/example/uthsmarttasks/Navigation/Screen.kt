@@ -10,4 +10,5 @@ object Screen{
     const val Confirm ="confirm"
     const val Login = "login"
     const val Profile = "profile"
+    const val ProfileScreen ="profileScreen"
 }
