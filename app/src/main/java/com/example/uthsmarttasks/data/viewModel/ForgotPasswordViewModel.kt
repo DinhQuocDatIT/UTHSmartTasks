@@ -1,8 +1,8 @@
-package com.example.uthsmarttasks.Data.ViewModel
+package com.example.uthsmarttasks.data.viewModel
 
 import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel
-import com.example.uthsmarttasks.Data.Module.ForgotPasswordData
+import com.example.uthsmarttasks.data.model.ForgotPasswordData
 
 class  ForgotPasswordViewModel: ViewModel(){
 

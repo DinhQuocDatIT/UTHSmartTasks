@@ -41,7 +41,10 @@ android {
 }
 
 dependencies {
-
+    implementation("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.8.0")
+    implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.8.0")
     implementation("com.google.firebase:firebase-auth")
     implementation("io.coil-kt:coil-compose:2.7.0")
     implementation("com.google.android.gms:play-services-auth:21.1.1")

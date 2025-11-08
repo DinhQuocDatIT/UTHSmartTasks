@@ -1,4 +1,4 @@
-package com.example.uthsmarttasks.Data.Module
+package com.example.uthsmarttasks.data.model
 
 data class ForgotPasswordData(
     val email: String = "",

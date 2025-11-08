@@ -1,4 +1,4 @@
-package com.example.uthsmarttasks.Screens.Introduce
+package com.example.uthsmarttasks.Screens.introduce
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
@@ -19,8 +19,8 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
-import com.example.uthsmarttasks.Data.Module.Introduce
-import com.example.uthsmarttasks.Navigation.Screen
+import com.example.uthsmarttasks.data.model.Introduce
+import com.example.uthsmarttasks.navigation.Screen
 import com.example.uthsmarttasks.R
 import com.example.uthsmarttasks.ui.theme.colorCustom
 import kotlinx.coroutines.launch

@@ -1,4 +1,4 @@
-package com.example.uthsmarttasks.Screens.ForgetPassword
+package com.example.uthsmarttasks.Screens.forgetPassword
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border

@@ -1,4 +1,4 @@
-package com.example.uthsmarttasks.Navigation
+package com.example.uthsmarttasks.navigation
 
 object Screen{
     const val Home = "home"
@@ -11,4 +11,6 @@ object Screen{
     const val Login = "login"
     const val Profile = "profile"
     const val ProfileScreen ="profileScreen"
+    const val ProductListScreen ="productListScreen"
+    const val Activities ="activities"
 }

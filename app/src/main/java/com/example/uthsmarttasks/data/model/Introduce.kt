@@ -1,4 +1,4 @@
-package com.example.uthsmarttasks.Data.Module
+package com.example.uthsmarttasks.data.model
 
 class Introduce(var titleIntroduce:String, var contentIntroduce:String,var imageIntroduce:Int)  {
     private  var _title:String = titleIntroduce

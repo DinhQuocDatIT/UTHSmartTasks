@@ -1,4 +1,4 @@
-package com.example.uthsmarttasks.Screens.Introduce
+package com.example.uthsmarttasks.Screens.introduce
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement

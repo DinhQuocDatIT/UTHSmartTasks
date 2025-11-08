@@ -1,4 +1,4 @@
-package com.example.uthsmarttasks.Screens.Introduce
+package com.example.uthsmarttasks.Screens.introduce
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Arrangement
@@ -15,7 +15,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.example.uthsmarttasks.Data.Module.Introduce
+import com.example.uthsmarttasks.data.model.Introduce
 
 @Composable
 fun OnboardingPageItem(page : Introduce){
